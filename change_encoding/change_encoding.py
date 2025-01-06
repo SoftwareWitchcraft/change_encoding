@@ -35,7 +35,7 @@ def process_folder(folder_path, from_encoding, to_encoding):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python encoding.py <folder_path> [from_encoding] [to_encoding]")
+        print("Usage: chenc <folder_path> [from_encoding] [to_encoding]")
         sys.exit(1)
 
     folder_path = sys.argv[1]
